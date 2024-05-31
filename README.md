@@ -45,8 +45,8 @@ Users should be able to:
 
 ![](./Output_screenshots/desktop_view_light_mode.png)
 ![](./Output_screenshots/desktop_view_dark_mode.png)
-![](./Output_screenshots/mobile_view_light_mode.png)
-![](./Output_screenshots/mobile_view_dark_mode.png)
+![](./Output_screenshots/mobile_view_light_mode.jpeg)
+![](./Output_screenshots/mobile_view_dark_mode.jpeg)
 
 
 ### Links
