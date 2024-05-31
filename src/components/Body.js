@@ -14,8 +14,12 @@ const Body = () => {
     const dispatch = useDispatch();
 
     useEffect(() => {
+        setTheme(th);
+    }, []);
+
+    useEffect(() => {
         dispatch(changeTheme(theme));
-    },[theme]);
+    }, [theme, dispatch]);
 
     return (
         <div className={theme ? "text-white" : "text-black"}>
@@ -31,7 +35,7 @@ const Body = () => {
                     <h1 style={{color: theme ? "rgb(209 213 219)" :  "rgb(107 114 128)"}} className="text-[15px] text-center px-12 md:text-left md:px-4 font-semibold">Sign-up for our 30-day trial. No credit card required.</h1>
                 </div>
                 <div className="mt-16"><CardComponent /></div>
-                <div className="-mt-[82vh] md:-mt-[42%] ml-[58%] md:ml-[83%]">
+                <div className="-mt-[190%] md:-mt-[42%] ml-[58%] md:ml-[83%]">
                     <div className="flex">
                         <h4 className="mx-3 font-semibold text-lg">Light</h4>
                         <div className="py-1">
